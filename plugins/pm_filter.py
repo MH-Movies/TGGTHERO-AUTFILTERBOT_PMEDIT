@@ -866,7 +866,7 @@ async def advantage_spell_chok(msg):
     ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="🚫 Close 🚫", callback_data=f'spolling#{user}#close_spellcheck')])
     btn.insert(0,
-        [InlineKeyboardButton(f="💭 {message.chat.title} 💭", url="https://t.me/MoviesHubGroup2")]
+        [InlineKeyboardButton("💭 ᴍᴏᴠɪᴇs ʜᴜʙ 💭", url="https://t.me/MoviesHubGroup2")]
     )
     await msg.reply_photo(photo="https://telegra.ph/file/c40aefe742c64f500dad5.jpg", caption="<b><u><i>📣 I couldn't find anything related to that Did you mean any one of these?\n\n📣 നിങ്ങൾ ഉദ്ദേശിച്ച മൂവി താഴെ കാണുന്ന വല്ലതും ആണ് എങ്കിൽ.അതിൽ ക്ലിക്ക് ചെയ്യുക</i></b></u>",
                     reply_markup=InlineKeyboardMarkup(btn))
