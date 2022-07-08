@@ -53,7 +53,7 @@ async def save_group(bot, message):
                         await (temp.MELCOW['welcome']).delete()
                     except:
                         pass
-                temp.MELCOW['welcome'] = await message.reply(f"<b>Hey , {u.mention}, Welcome to {message.chat.title}</b>")
+                temp.MELCOW['welcome'] = await message.reply(f"<b>Hey {u.mention}, Welcome to {message.chat.title}🕺💞\n\nDont use words like:\n(Movies|Series) (send|Kittuo|Tharuo)\n(Malayalam | Hindi | Tamil |Telugu)\n\nNOTE: Just copy paste the movie name from GOOGLE\nIf you still dont get it try removing the special characters like: (' - :)</b>")
 
 
 @Client.on_message(filters.command('leave') & filters.user(ADMINS))
